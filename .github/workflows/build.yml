@@ -1,5 +1,11 @@
 # testing
-on: push
+# on: push
+on:
+  # Trigger analysis when pushing in master or pull requests, and when creating
+  # a pull request. 
+  push:
+    branches:
+      - master
 name: Main Workflow
 jobs:
   sonarCloudTrigger:
