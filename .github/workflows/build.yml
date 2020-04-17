@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+        - mvo
 name: Main Workflow
 jobs:
   sonarCloudTrigger:
