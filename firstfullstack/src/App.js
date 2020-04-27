@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-
+import Container from './UI-Components/Container/Container'
 function App() {
   return (
     <div className="App">
-      <h1>Sonar Cloud trigger last testing</h1>
+      <Container />
     </div>
   );
 }

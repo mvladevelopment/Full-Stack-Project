@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header'
+import Header from '../Header/Header'
 export default class Container extends Component {
     state={
         header:"Type a header here"
